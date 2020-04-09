@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#1C1038"
+        android:fontFamily="@font/muli_light"
+        android:padding="@dimen/_16sdp"
+        android:text="title"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18sdp" />
+
+    <ImageView
+        android:id="@+id/remove_item"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:padding="12dp"
+        android:src="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/add_items"
+        android:layout_width="48dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_delete" />
+
+</RelativeLayout>

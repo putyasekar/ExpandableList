@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ExpandableList</string>
+    <string name="dialog_title">Enter Title</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="nama_orang">
+        <item>Putya</item>
+        <item>Nisa</item>
+        <item>Shinta</item>
+        <item>Naura</item>
+        <item>Jasmine</item>
+    </string-array>
+
+    <string-array name="shoes">
+        <item>Nike</item>
+        <item>Adidas</item>
+        <item>Converse</item>
+        <item>Vans</item>
+        <item>Louis Vuitton</item>
+        <item>Onitsuka</item>
+    </string-array>
+
+    <string-array name="clothes">
+        <item>Giordano</item>
+        <item>Gucci</item>
+        <item>Timberland</item>
+        <item>Lacoste</item>
+        <item>Deus</item>
+    </string-array>
+</resources>
